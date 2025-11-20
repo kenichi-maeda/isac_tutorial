@@ -3,7 +3,9 @@ def test_import_package():
     import isac_tutorial
 
     # Check that __version__ exists
-    assert hasattr(isac_tutorial, "__version__"), "Package should have __version__ attribute"
+    assert hasattr(
+        isac_tutorial, "__version__"
+    ), "Package should have __version__ attribute"
 
 
 def test_import_core():
